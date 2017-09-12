@@ -73,6 +73,5 @@ class Autorization():
 
         #driver.quit()
 
-
 ff = Autorization()
 ff.test_auth()
