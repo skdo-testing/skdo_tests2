@@ -17,59 +17,62 @@ class Autorization():
         login4 = "4444444444"
         pass4 = "444"
 
-        driver = webdriver.Firefox()
-        #driver.maximize_window()
+        driver = webdriver.Chrome()
         driver.get(baseUrl)
         driver.implicitly_wait(10)
 
         #Авторизация чсро
         #телефон
-        driver.find_element(By.XPATH, ".//*[@id='add_user_login']/input").send_keys(login1)
+        driver.find_element_by_xpath('//p-inputmask[@id="add_user_login"]/input').send_keys(login1)
         #пароль
-        driver.find_element(By.XPATH, ".//*[@id='add_user_password']").send_keys(pass1)
+        driver.find_element_by_id('add_user_password').send_keys(pass1)
         #продолжить
-        driver.find_element(By.XPATH, "html/body/app-root/div/div/div[2]/ng-component/div/div/div[2]/button[2]").click()
+        driver.find_elements_by_xpath('//button[@label="Продолжить"]')[0].click()
         #выход
-        driver.find_element(By.XPATH, "html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/a/i").click()
-        driver.find_element(By.XPATH, "html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/ul/li[3]/a").click()
+        driver.find_element_by_xpath('//*[@id="topbar-menu-button"]').click()
+        driver.find_element_by_xpath('/html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/a/span').click()
+        driver.find_element_by_xpath('/html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/ul/li[3]/a/span').click()
 
 
         #Авторизация сро
         #телефон
-        driver.find_element(By.XPATH, ".//*[@id='add_user_login']/input").send_keys(login2)
+        driver.find_element_by_xpath('//p-inputmask[@id="add_user_login"]/input').send_keys(login2)
         #пароль
-        driver.find_element(By.XPATH, ".//*[@id='add_user_password']").send_keys(pass2)
+        driver.find_element_by_id('add_user_password').send_keys(pass2)
         #продолжить
-        driver.find_element(By.XPATH, "html/body/app-root/div/div/div[2]/ng-component/div/div/div[2]/button[2]").click()
+        driver.find_elements_by_xpath('//button[@label="Продолжить"]')[0].click()
         #выход
-        driver.find_element(By.XPATH, "html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/a/i").click()
-        driver.find_element(By.XPATH, "html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/ul/li[3]/a").click()
+        driver.find_element_by_xpath('//*[@id="topbar-menu-button"]').click()
+        driver.find_element_by_xpath('/html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/a/span').click()
+        driver.find_element_by_xpath('/html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/ul/li[3]/a/span').click()
 
 
         #Авторизация ко
         #телефон
-        driver.find_element(By.XPATH, ".//*[@id='add_user_login']/input").send_keys(login3)
+        driver.find_element_by_xpath('//p-inputmask[@id="add_user_login"]/input').send_keys(login3)
         #пароль
-        driver.find_element(By.XPATH, ".//*[@id='add_user_password']").send_keys(pass3)
+        driver.find_element_by_id('add_user_password').send_keys(pass3)
         #продолжить
-        driver.find_element(By.XPATH, "html/body/app-root/div/div/div[2]/ng-component/div/div/div[2]/button[2]").click()
+        driver.find_elements_by_xpath('//button[@label="Продолжить"]')[0].click()
         #выход
-        driver.find_element(By.XPATH, "html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/a/i").click()
-        driver.find_element(By.XPATH, "html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/ul/li[3]/a").click()
+        driver.find_element_by_xpath('//*[@id="topbar-menu-button"]').click()
+        driver.find_element_by_xpath('/html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/a/span').click()
+        driver.find_element_by_xpath('/html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/ul/li[3]/a/span').click()
 
 
         #Авторизация zak
         #телефон
-        driver.find_element(By.XPATH, ".//*[@id='add_user_login']/input").send_keys(login4)
+        driver.find_element_by_xpath('//p-inputmask[@id="add_user_login"]/input').send_keys(login4)
         #пароль
-        driver.find_element(By.XPATH, ".//*[@id='add_user_password']").send_keys(pass4)
+        driver.find_element_by_id('add_user_password').send_keys(pass4)
         #продолжить
-        driver.find_element(By.XPATH, "html/body/app-root/div/div/div[2]/ng-component/div/div/div[2]/button[2]").click()
+        driver.find_elements_by_xpath('//button[@label="Продолжить"]')[0].click()
         #выход
-        driver.find_element(By.XPATH, "html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/a/i").click()
-        driver.find_element(By.XPATH, "html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/ul/li[3]/a").click()
+        driver.find_element_by_xpath('//*[@id="topbar-menu-button"]').click()
+        driver.find_element_by_xpath('/html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/a/span').click()
+        driver.find_element_by_xpath('/html/body/app-root/div/div/app-topbar/div/div[2]/ul/li[1]/ul/li[3]/a/span').click()
 
-        driver.execute_script("")
+#        driver.execute_script("")
 
         #driver.quit()
 

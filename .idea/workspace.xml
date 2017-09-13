@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa9891f-502f-4bea-83c5-b88bcfccf724" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SKDO/registration_sro.py" afterPath="$PROJECT_DIR$/SKDO/registration_sro_old.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKDO/registration_ide.py" afterPath="$PROJECT_DIR$/SKDO/registration_ide.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKDO/autorization.py" afterPath="$PROJECT_DIR$/SKDO/autorization.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Registration_sro1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Registration_sro1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SKDO/Registration_sro1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="68" lean-forward="true" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+            <state relative-caret-position="408">
+              <caret line="99" column="81" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="81" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autorization.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SKDO/autorization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -49,18 +59,18 @@
         <option value="$PROJECT_DIR$/utilities/temp_sql.py" />
         <option value="$PROJECT_DIR$/utilities/mssql_wrappers.py" />
         <option value="$PROJECT_DIR$/SKDO/autorization_sro.py" />
-        <option value="$PROJECT_DIR$/SKDO/autorization.py" />
         <option value="$PROJECT_DIR$/SKDO/registration.py" />
         <option value="$PROJECT_DIR$/SKDO/registration_sro.py" />
         <option value="$PROJECT_DIR$/SKDO/registration_ide.py" />
         <option value="$PROJECT_DIR$/SKDO/test.py" />
         <option value="$PROJECT_DIR$/SKDO/Registration_sro1.py" />
+        <option value="$PROJECT_DIR$/SKDO/autorization.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="40" />
+    <option name="x" value="347" />
+    <option name="y" value="64" />
     <option name="width" value="1554" />
     <option name="height" value="903" />
   </component>
@@ -131,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Registration_sro1">
+  <component name="RunManager" selected="Python.autorization">
     <configuration name="Registration_sro1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,11 +251,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Registration_sro1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for registration_ide.Untitled" />
-        <item index="3" class="java.lang.String" itemvalue="Python.registration_sro" />
-        <item index="4" class="java.lang.String" itemvalue="Python.autorization" />
+        <item index="0" class="java.lang.String" itemvalue="Python.autorization" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Registration_sro1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for registration_ide.Untitled" />
+        <item index="4" class="java.lang.String" itemvalue="Python.registration_sro" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +287,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="40" width="1554" height="903" extended-state="0" />
+    <frame x="347" y="64" width="1554" height="903" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20281124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -323,7 +333,7 @@
         <state relative-caret-position="1258">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
-            <element signature="e#0#30#0" expanded="false" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -358,7 +368,7 @@
         <state relative-caret-position="187">
           <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
-            <element signature="e#0#30#0" expanded="false" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -542,16 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SKDO/autorization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SKDO/registration_ide.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -574,8 +574,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SKDO/Registration_sro1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="68" lean-forward="true" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+        <state relative-caret-position="408">
+          <caret line="99" column="81" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKDO/autorization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
