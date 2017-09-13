@@ -20,7 +20,7 @@ class Untitled(unittest.TestCase):
         driver = self.driver
         driver.get(self.base_url + "/#/add/reg_main")
         driver.find_element_by_xpath("//input[@type='text']").clear()
-        driver.find_element_by_xpath("//input[@type='text']").send_keys("+7(282) 828-28-28")
+        driver.find_element_by_xpath("//input[@type='text']").send_keys("+7(282) 838-28-28")
         driver.find_element_by_id("add_user__password").clear()
         driver.find_element_by_id("add_user__password").send_keys("99999999")
         driver.find_element_by_id("add_user__lastname").clear()

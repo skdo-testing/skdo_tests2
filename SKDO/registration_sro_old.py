@@ -21,8 +21,8 @@ class Registration_sro():
 
         ### Раздел Общие данные
         #телефон
-        driver.find_element(By.XPATH, "//*[@id='add_user_login']").click()
-        driver.find_element(By.XPATH, "//*[@id='add_user_login']").send_keys(tel)
+        driver.find_element(By.XPATH, "//*[@id='add_user_login']").clear()
+        driver.find_element(By.XPATH, "//*[@id='add_user_login']").send_keys("+7(282) 528-28-28")
         #пароль
         driver.find_element(By.XPATH, "//*[@id='add_user__password']").send_keys("99999999")
         #фамилия
