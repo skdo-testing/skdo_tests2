@@ -1,6 +1,9 @@
-from selenium import webdriver
-from SKDO.autorization_class import Autorization
 import unittest
+
+from selenium import webdriver
+
+from SKDO.classes.autorization_class import Autorization
+
 
 class AutorizationTests(unittest.TestCase):
 
@@ -8,6 +11,7 @@ class AutorizationTests(unittest.TestCase):
 
         baseUrl = "http://i.skdo.ru"
         driver = webdriver.Chrome()
+        #driver.maximize_window()
         driver.get(baseUrl)
         driver.implicitly_wait(10)
         at = Autorization(driver)

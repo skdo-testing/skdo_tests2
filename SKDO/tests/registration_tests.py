@@ -1,20 +1,77 @@
 from selenium import webdriver
 import time
+from random import randint
+import unittest
+from SKDO.classes.registration_class import RegistrationClass
 
-class Registration_sro1():
+class RegistrationSro1(unittest.TestCase):
+
     def test(self):
-        tel = "1317507015"
 
-        driver=webdriver.Chrome()
-        driver.get('http://i.skdo.ru/#/add/reg_main')
+        baseUrl = "http://i.skdo.ru/#/add/reg_main"
+        driver = webdriver.Chrome()
+        driver.implicitly_wait(10)
+        driver.get(baseUrl)
+
+        rt = RegistrationClass(driver)
+
+        # начало тестов
+        rt.test_first_page()
+        rt.select_role(2) #sro=2, csro=3, ko=4, zak=5
 
 
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
         driver.find_element_by_xpath('//p-inputmask[@id="add_user_login"]/input').send_keys(tel)
         driver.find_element_by_id('add_user__password').send_keys("99999999")
         driver.find_element_by_id('add_user__lastname').send_keys("Zubar")
         driver.find_element_by_id('add_user__firstname').send_keys("Aleksey")
         driver.find_element_by_id('add_user__secondname').send_keys("Olegovich")
         driver.find_element_by_id('add_user_email').send_keys("lesha9615@gmail.com")
+
+        #Выбор роли
         driver.find_element_by_xpath('//span[@class="fa fa-fw fa-caret-down ui-clickable"]').click()
         time.sleep(4)
         driver.find_element_by_xpath('//div[@class="ui-dropdown-items-wrapper"]/ul/li[2]').click()
@@ -100,8 +157,9 @@ class Registration_sro1():
         driver.find_elements_by_xpath('//button[@label="Продолжить"]')[0].click()
 
 
-ch = Registration_sro1()
-ch.test()
+# ch = RegistrationSro1()
+# ch.test()
+"""
 
 
 
