@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa9891f-502f-4bea-83c5-b88bcfccf724" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKDO/autorization.py" afterPath="$PROJECT_DIR$/SKDO/autorization.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Others/test_case_demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SKDO/autorization_class.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SKDO/autorization_tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utilities/logging_demo.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SKDO/autorization.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/RunFFTests.py" afterPath="$PROJECT_DIR$/Others/RunFFTests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Tests/__init__.py" afterPath="$PROJECT_DIR$/Others/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Registration_sro1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SKDO/Registration_sro1.py">
+      <file leaf-file-name="autorization_class.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SKDO/autorization_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="99" column="81" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="81" />
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -25,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autorization.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SKDO/autorization.py">
+      <file leaf-file-name="autorization_tests.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SKDO/autorization_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+            <state relative-caret-position="323">
+              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -64,15 +71,22 @@
         <option value="$PROJECT_DIR$/SKDO/registration_ide.py" />
         <option value="$PROJECT_DIR$/SKDO/test.py" />
         <option value="$PROJECT_DIR$/SKDO/Registration_sro1.py" />
+        <option value="$PROJECT_DIR$/utilities/logging_demo.py" />
+        <option value="$PROJECT_DIR$/Others/test_case_demo.py" />
         <option value="$PROJECT_DIR$/SKDO/autorization.py" />
+        <option value="$PROJECT_DIR$/SKDO/autorization_class.py" />
+        <option value="$PROJECT_DIR$/SKDO/autorization_tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="347" />
-    <option name="y" value="64" />
+    <option name="x" value="86" />
+    <option name="y" value="32" />
     <option name="width" value="1554" />
     <option name="height" value="903" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -100,12 +114,12 @@
             <path>
               <item name="skdo_tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="skdo_tests" type="462c0819:PsiDirectoryNode" />
-              <item name="SKDO" type="462c0819:PsiDirectoryNode" />
+              <item name="Others" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skdo_tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="skdo_tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="SKDO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skdo_tests" type="b2602c69:ProjectViewProjectNode" />
@@ -141,25 +155,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.autorization">
-    <configuration name="Registration_sro1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SKDO" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tests" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SKDO/Registration_sro1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Unittests for registration_ide.Untitled" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_case_demo">
+    <configuration name="Unittests for SKDO.autorization_class.Autorization" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -170,8 +167,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="tests" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;registration_ide.Untitled&quot;" />
+      <option name="_new_target" value="&quot;SKDO.autorization_class.Autorization&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_case_demo.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tests" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Others/test_case_demo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="autorization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,7 +196,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="tests" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SKDO/autorization.py" />
+      <option name="SCRIPT_NAME" value="C:\Projects\skdo_tests\skdo_tests\SKDO\autorization_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,36 +218,36 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="registration_sro" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="logging_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SKDO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utilities" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="tests" />
-      <option name="SCRIPT_NAME" value="C:\Projects\skdo_tests\skdo_tests\SKDO\registration_sro_old.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utilities/logging_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_case_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SKDO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Others" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="tests" />
-      <option name="SCRIPT_NAME" value="C:\Projects\skdo_tests\skdo_tests\SKDO\Registration_sro1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Others/test_case_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,18 +255,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.explicit-wait-type" />
       <item index="1" class="java.lang.String" itemvalue="Python.autorization" />
-      <item index="2" class="java.lang.String" itemvalue="Python.registration_sro" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for registration_ide.Untitled" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Registration_sro1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.logging_demo" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_case_demo.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for SKDO.autorization_class.Autorization" />
+      <item index="5" class="java.lang.String" itemvalue="Python.test_case_demo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.autorization" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Registration_sro1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for registration_ide.Untitled" />
-        <item index="4" class="java.lang.String" itemvalue="Python.registration_sro" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test_case_demo" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for SKDO.autorization_class.Autorization" />
+        <item index="2" class="java.lang.String" itemvalue="Python.autorization" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_case_demo.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python.logging_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -273,8 +284,23 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Unittests_for_autorization_Autorization - 2017.09.13 at 18h 26m 09s.xml">
+      <configuration name="Unittests for autorization.Autorization" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_autorization_Autorization - 2017.09.14 at 13h 28m 26s.xml">
+      <configuration name="Unittests for autorization.Autorization" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_autorization_Autorization - 2017.09.14 at 13h 31m 22s.xml">
+      <configuration name="Unittests for autorization.Autorization" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_autorization_Autorization - 2017.09.14 at 13h 33m 37s.xml">
+      <configuration name="Unittests for autorization.Autorization" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_for_registration_ide_Untitled - 2017.09.12 at 21h 02m 09s.xml">
       <configuration name="Unittests for registration_ide.Untitled" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_case_demo_py - 2017.09.13 at 17h 36m 58s.xml">
+      <configuration name="Unittests in test_case_demo.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -287,17 +313,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="347" y="64" width="1554" height="903" extended-state="0" />
-    <editor active="true" />
+    <frame x="86" y="32" width="1554" height="903" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20281124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24155845" sideWeight="0.5026774" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24155845" sideWeight="0.49732262" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3116883" sideWeight="0.49732262" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32987013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -328,7 +353,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SKDO/autorization.py">
+    <entry file="file://$PROJECT_DIR$/SKDO/autorization_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
@@ -363,7 +388,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SKDO/autorization.py">
+    <entry file="file://$PROJECT_DIR$/SKDO/autorization_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
@@ -474,21 +499,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/RunFFTests.py">
+    <entry file="file://$PROJECT_DIR$/Others/RunFFTests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/RunFFTests.py">
+    <entry file="file://$PROJECT_DIR$/Others/RunFFTests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/RunFFTests.py">
+    <entry file="file://$PROJECT_DIR$/Others/RunFFTests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
@@ -575,17 +600,51 @@
     <entry file="file://$PROJECT_DIR$/SKDO/Registration_sro1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="99" column="81" lean-forward="true" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="81" />
+          <caret line="99" column="81" lean-forward="false" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="81" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SKDO/autorization.py">
+    <entry file="file://$PROJECT_DIR$/utilities/test.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/logging_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Others/test_case_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKDO/autorization_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKDO/autorization_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
